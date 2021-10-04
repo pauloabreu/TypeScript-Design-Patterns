@@ -13,8 +13,8 @@ export abstract class VehicleFactory{
         //if(vehicleName == 'BMW'){}
         //if(vehicleName == 'BMX'){}
 
-        const car = this.getVehicle(vehicleName);
-        car.startDelivery(address);
-        return car;
+        const vehicle = this.getVehicle(vehicleName);
+        vehicle.startDelivery(address);
+        return vehicle;
     }
 }   
