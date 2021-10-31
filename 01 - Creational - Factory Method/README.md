@@ -2,7 +2,7 @@
 
 ## O Problema
 
-Imagine que precisamos de objetos(Carro, Bicicleta) para iniciarmos o Delivery.
+Imagine que precisamos de uma familia de objetos relacionados.
 
 <img src="./Images/problem.png" />
 
