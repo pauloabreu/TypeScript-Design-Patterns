@@ -18,6 +18,6 @@ Agora nas SubClasses(Car, Bike, Airplane):
 
 <img src="./Images/factories.png" />
 
-Agora podemos facilmente aumentar facilmente o número de veículos, basta criar uma classe, ex: **Airplane** e implementar o **VehicleFactory**, seguindo o Open/Closed Principe.
+Agora podemos facilmente aumentar o número de veículos, basta criar uma classe, ex: **Airplane** e implementar o **VehicleFactory**, seguindo o Open/Closed Principe.
 
 O resto do código agora somente está acoplado as **Factories**, se fizermos novas implementações/mudanças nas classes originais Car/Bicycle, basta mudar as suas respectivas **Factories** e assim não quebramos o código.
